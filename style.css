@@ -73,7 +73,7 @@ img {
 }
 
 
-/* versione smartphone <420px */
+/* versione SMARTPHONE iphone SE <420px */
 @media screen and (min-width:375px) {
 
   body {
@@ -139,4 +139,58 @@ img {
   }
 
 
+}
+
+
+/* versione TABLET 600px */
+@media screen and (min-width:600px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .row {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 40%;
+    float: left;
+    margin:20px 30px;
+  }
+  
+  
+  
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 30%;
+  }
+  
+  /* BLOCCO PERCHE */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 30%;
+    margin:80px 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* COMMON */
+  
+  img {
+    height: 150px;
+  }
+  
 }
