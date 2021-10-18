@@ -74,11 +74,11 @@ img {
 
 
 /* versione smartphone <420px */
-@media screen and (max-width:421px) {
+@media screen and (min-width:375px) {
 
-  /* body {
+  body {
     overflow-x: hidden;
-  } */
+  }
 
   .row {
     width: 350px;
@@ -102,14 +102,16 @@ img {
   }
 
   /* BLOCCO STEPS */
+  
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
+    width: 50%;
+    margin: 20px auto;
   }
 
-   
-   
 
   /* BLOCCO PERCHE */
 
